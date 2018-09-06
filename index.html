@@ -11,27 +11,42 @@
 <style >
     .leobtn {
         margin: 5px;
-    color: black;
+    color: #704214;
     background-color: inherit;
     }
     .leobtn:hover{
         margin: 4px;
-        color: black;
-        border: 2px solid black;
+        color: #704214;
+        border: 2px solid #704214;
     }
+		h1{
+			color:#704214;
+		}
 </style>
   </head>
   <body>
       <div class="container-fluid">
-          <div class="jumbotron row" style="padding: 10px" >
+          <div class="jumbotron row" style="padding: 10px; border: 3px #704214 solid" >
               <nav class="navbar  navbar-light bg-light">
-                <form class="form-inline row">
-                  <button class="btn btn-sm leobtn " type="button" >Main button</button>
-                  <button class="btn btn-sm leobtn" type="button" >Smaller button</button>
-                </form>
-              </nav>
-          </div>
-      </div>
+                <form class="form-inline inline">
+                  <a class="btn btn-sm leobtn " type="button" href="https://www.google.com/">About</a>
+                  <button class="btn btn-sm leobtn " type="button">Published Works</button>
+                  <button class="btn btn-sm leobtn " type="button">Formation</button>
+                  <button class="btn btn-sm leobtn " type="button">Contact</button>
+								</form>
+								
+								<h1 class="col-sm-3">Welcome!</h1>
+							</nav>
+							<hr>
+					</div>
+					
+			</div>
+			<div class="container row">
+				<figure class="figure col-sm-3">
+					<img src="./images/eu.jpg" class="figure-img img-fluid rounded img-thumbnail" alt="">
+					<figcaption class="figure-caption text-xs-right"></figcaption>
+				</figure>
+			</div>
 
           <!-- <div class
           ="nav"> -->
@@ -39,7 +54,7 @@
             <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of it's parent.</p> -->
           <!-- </div> -->
     <h1>Hello, world!</h1>
-
+		
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
   </body>
