@@ -10,6 +10,9 @@
   crossorigin="anonymous">
 <link rel="stylesheet" href="./css/sandstone.min.css">
 <style >
+ body{
+   padding-top: 70px;
+ }
   h1,h2{
 			color:#704214;
 		}
@@ -19,30 +22,62 @@
    .tab-pane:not(.active) {
       display: none !important;
   }
+  li {
+    display: inline;
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  a {
+    margin-top:  3px !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important; 
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+ 
+  a {
+    margin-top:  3px !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important; 
+  }
+}
+
 </style>
 </head>
 <body>
   <div class="container-fluid">
-    <div class="jumbotron row" style="padding: 0px; border-bottom: 3px #704214 solid" >
-    <!-- Tab Navigation -->
-      <ul class="nav nav-tabs col-sm-4" role="tablist">
-        <li>
-          <a href="#About" class="nav-link active" role="tab" data-toggle="tab">About</a>
-        </li>
-        <li>
-          <a href="#Works" class="nav-link" role="tab" data-toggle="tab">Published Works</a>
-        </li>
-        <li>
-          <a href="#Formation" class="nav-link" role="tab" data-toggle="tab">Formation</a>
-        </li>
-        <li>
-          <a href="#Contact" class="nav-link" role="tab" data-toggle="tab">Contact</a>
-        </li>
-      </ul>
-      <div class="offset-sm-2 col-sm-3" style="margin-bottom:0px ">
-        <h2 class="">Welcome!</h2>
-      </div>
- 		</div>
+      <nav class=" nav nav-tabs navbar navbar-expand-lg navbar-light bg-light fixed-top" style="padding-bottom: 4px; border-bottom: 3px #704214 solid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand navbar-right pull-right" href="https://leo-souto.github.io/" style="color:#704214;">Home</a>
+  
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <div class="navbar-nav ">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" id="About-tab" data-toggle="tab" href="#About" role="tab" aria-controls="About"
+                  aria-selected="true">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Works-tab" data-toggle="tab" href="#Works" role="tab" aria-controls="Works"
+                aria-selected="false">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Formation-tab" data-toggle="tab" href="#Formation" role="tab" aria-controls="Formation"
+                aria-selected="false">Formation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Contact-tab" data-toggle="tab" href="#Contact" role="tab" aria-controls="Contact"
+                 aria-selected="false">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   </div>
   <!-- Tab Content -->
 	<div class="container">
@@ -54,22 +89,22 @@
           </figure>
         </div>
        <div class="col-sm-9">
-          <div class="active tab-pane fade show" id="About">
+          <div class="active tab-pane fade show" id="About" role="tabpanel" aria-labelledby="About-tab" >
            <h2 class="">Leonardo Souto Ferreira</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque perferendis harum. Nobis unde nihil minima
              sint incidunt sequi alias repellendus suscipit voluptates obcaecati, modi sit fugiat expedita eum? Tempore! </p>
           </div>
-          <div class="tab-pane fade" id="Works">
+          <div class="tab-pane container fade" id="Works" role="tabpanel" aria-labelledby="Works-tab">
             <h2 class="">Works</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque perferendis harum. Nobis unde nihil minima
               sint incidunt sequi alias repellendus suscipit voluptates obcaecati, modi sit fugiat expedita eum? Tempore! </p>
           </div>
-          <div class="tab-pane fade" id="Formation">
+          <div class="tab-pane container fade" id="Formation" role="tabpanel" aria-labelledby="Formation-tab">
             <h2 class="">Formation</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque perferendis harum. Nobis unde nihil minima
               sint incidunt sequi alias repellendus suscipit voluptates obcaecati, modi sit fugiat expedita eum? Tempore! </p>
           </div>
-          <div class="tab-pane fade" id="Contact">
+          <div class="tab-pane container fade" id="Contact" role="tabpanel" aria-labelledby="Contact-tab">
             <h2 class="">Contact</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque perferendis harum. Nobis unde nihil minima
               sint incidunt sequi alias repellendus suscipit voluptates obcaecati, modi sit fugiat expedita eum? Tempore! </p>
