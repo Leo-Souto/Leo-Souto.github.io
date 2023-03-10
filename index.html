@@ -1,421 +1,369 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Leonardo Souto Ferreira's Personal Page</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Leonardo Souto Ferreira's Personal Page</title>
 
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="./css/sandstone.min.css"> -->
-        <style>
-            body {
-                padding-top: 70px;
-            }
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/sandstone.min.css"> -->
+    <style>
+        body {
+            padding-top: 70px;
+        }
 
-            h1,
-            h2,
-            h3,
-            h4 {
-                color: #800000;
-            }
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #800000;
+        }
 
-            .nav > li > .active,
-            .nav > li > a:focus,
-            .nav > li > a:hover {
-                background-color: #FF9494 !important;
-            }
+        .nav>li>.active,
+        .nav>li>a:focus,
+        .nav>li>a:hover {
+            background-color: #FF9494 !important;
+        }
 
-            .tab-pane:not(.active) {
-                display: none !important;
-            }
+        .tab-pane:not(.active) {
+            display: none !important;
+        }
 
-            li {
-                display: inline;
+        li {
+            display: inline;
+        }
+
+        a {
+            color: #AE0000;
+        }
+
+        .link {
+            color: #AE0000;
+        }
+
+        /* CSS link color (red) */
+        .link:hover {
+            color: #FF0B0B;
+        }
+
+        /* CSS link hover (green) */
+
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 768px) {
+            a {
+                margin-top: 3px !important;
+                padding-right: 5px !important;
+                padding-left: 5px !important;
             }
+        }
+
+        /* Extra Small Devices, Phones */
+        @media only screen and (max-width : 480px) {
 
             a {
-                color: #AE0000;
+                margin-top: 3px !important;
+                padding-right: 5px !important;
+                padding-left: 5px !important;
             }
+        }
+    </style>
+</head>
 
-            .link {
-                color: #AE0000;
-            }
-            /* CSS link color (red) */
-            .link:hover {
-                color: #FF0B0B;
-            }
-            /* CSS link hover (green) */
+<body>
+    <div class="container-fluid">
+        <nav class=" nav nav-tabs navbar navbar-expand-lg navbar-light bg-light fixed-top"
+            style="background-color: #f8b9b9; padding-bottom: 4px; border-bottom: 3px #AE0000 solid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand navbar-right pull-right" href="https://leo-souto.github.io/"
+                style="color:#AE0000;">Home</a>
 
-            /* Small Devices, Tablets */
-            @media only screen and (max-width : 768px) {
-                a {
-                    margin-top: 3px !important;
-                    padding-right: 5px !important;
-                    padding-left: 5px !important;
-                }
-            }
-
-            /* Extra Small Devices, Phones */
-            @media only screen and (max-width : 480px) {
-
-                a {
-                    margin-top: 3px !important;
-                    padding-right: 5px !important;
-                    padding-left: 5px !important;
-                }
-            }
-        </style>
-    </head>
-
-    <body>
-        <div class="container-fluid">
-            <nav
-                class=" nav nav-tabs navbar navbar-expand-lg navbar-light bg-light fixed-top"
-                style="background-color: #f8b9b9; padding-bottom: 4px; border-bottom: 3px #AE0000 solid">
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarTogglerDemo03"
-                    aria-controls="navbarTogglerDemo03"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a
-                    class="navbar-brand navbar-right pull-right"
-                    href="https://leo-souto.github.io/"
-                    style="color:#AE0000;">Home</a>
-
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <div class="navbar-nav ">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active"
-                                    id="About-tab"
-                                    data-toggle="tab"
-                                    href="#About"
-                                    role="tab"
-                                    aria-controls="About"
-                                    aria-selected="true">About
-                                    <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    id="Works-tab"
-                                    data-toggle="tab"
-                                    href="#Works"
-                                    role="tab"
-                                    aria-controls="Works"
-                                    aria-selected="false">Publications</a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    id="Formation-tab"
-                                    data-toggle="tab"
-                                    href="#Formation"
-                                    role="tab"
-                                    aria-controls="Formation"
-                                    aria-selected="false">Education</a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    id="Contact-tab"
-                                    data-toggle="tab"
-                                    href="#Contact"
-                                    role="tab"
-                                    aria-controls="Contact"
-                                    aria-selected="false">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="navbar-nav ">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="About-tab" data-toggle="tab" href="#About" role="tab"
+                                aria-controls="About" aria-selected="true">About
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Works-tab" data-toggle="tab" href="#Works" role="tab"
+                                aria-controls="Works" aria-selected="false">Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Formation-tab" data-toggle="tab" href="#Formation" role="tab"
+                                aria-controls="Formation" aria-selected="false">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Contact-tab" data-toggle="tab" href="#Contact" role="tab"
+                                aria-controls="Contact" aria-selected="false">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-        <!-- Tab Content -->
-        <div class="container">
-            <div class="row tab-content">
-                <div class="col-sm-3">
-                    <figure class="figure">
-                        <img
-                            src="./images/Leonardo_Souto_photo.png"
-                            class="figure-img img-fluid rounded img-thumbnail"
-                            style="border: 2px #AE0000 solid"
-                            alt="">
-                        <figcaption class="figure-caption text-xs-right"></figcaption>
-                    </figure>
+            </div>
+        </nav>
+    </div>
+    <!-- Tab Content -->
+    <div class="container">
+        <div class="row tab-content">
+            <div class="col-sm-3">
+                <figure class="figure">
+                    <img src="./images/Leonardo_Souto_photo.png" class="figure-img img-fluid rounded img-thumbnail"
+                        style="border: 2px #AE0000 solid" alt="">
+                    <figcaption class="figure-caption text-xs-right"></figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-9">
+                <div class="active tab-pane fade show" id="About" role="tabpanel" aria-labelledby="About-tab">
+                    <h2 class="">Leonardo Souto Ferreira</h2>
+                    <p class="text-justify">Hello, I'm a PhD student in Ecology and Evolution at the
+                        University of Chicago under supervision of Mercedes Pascual, and a member of
+                        <a href="https://covid19br.github.io/">Observatório COVID-19 BR</a>. I'm
+                        currently working with mathematical models of epidemics applied to urban malaria
+                        in India, studying the role of climate in transmission. I have experience with
+                        COVID-19 modeling, mostly concerning vaccination strategies. I also have
+                        experience in image processing of omnidirectional images with complex analysis
+                        and spatio-temporal chaos. Feel free to contact me.
+                    </p>
+                    <hr>
+                    <h3>
+                        Current Projects
+                    </h3>
+                    <h4>Urban malaria and Humidity</h4>
+                    <p class="text-justify">
+                        Using climate data and number of cases of malaria caused by P. falciparum,
+                        transmitted by A. stephensi, we plan to study the role of humidity iwith models
+                        that consider entomological characteristics of mosquitoes. This work has
+                        implications for malaria containment under climate change.
+                    </p>
+                    <p>
+                        <em>Collaborators:</em>
+                        <a href="https://voices.uchicago.edu/mercedespascual/">Mercedes Pascual</a><br>
+                        <em>Related Works:</em>
+                        None yet.
+                    </p>
+                    <h4>Mathematical Modelling of COVID-19</h4>
+                    <p class="text-justify">
+                        We aim to help the understanding of COVID-19 epidemics through mathematical
+                        models, mainly compartmental ones, such as SEIR-like models. Our interests are
+                        variants, non-pharmaceutical interventions and vaccination scenarios. We use
+                        mainly data from Brazil.
+                    </p>
+                    <p>
+                        <em>Collaborators:</em>
+                        Many, see Publications section or our project on
+                        <a
+                            href="https://www.researchgate.net/project/Mathematical-Modelling-of-COVID-19">ResearchGate</a><br>
+                        <em>Related Works:</em>
+                        Many, see my most recent papers in Publications section.
+                    </p>
+                    <h3>
+                        Old projects
+                    </h3>
+                    <h4>
+                        Omnidirectional Images and Moebius Transformations
+                    </h4>
+                    <p class="text-justify">
+                        In this project we aim to perceptually optimize omnidirectional images through
+                        Local Moebius Transformations, because of the relationship between the Complex
+                        Plane and Spherical Images.
+                    </p>
+                    <p>
+                        <em>Collaborators:</em>
+                        <a href="http://mtm.ufsc.br/~leo/">Leonardo Sacht</a>,
+                        <a href="http://lvelho.impa.br/">Luiz Velho<a>
+                                <br>
+                                <em>Related Works:</em>
+                                <a href="https://leo-souto.github.io/BBW_Moebius/">
+                                    Bounded biharmonic blending of Möbius transformations for flexible
+                                    omnidirectional image rectification</a><br>
+                                <a href="https://www.visgraf.impa.br/moebius360/">
+                                    Local Moebius transformations applied to omnidirectional images</a>
+                    </p>
+                    <h4>
+                        The Damped Kuramoto-Sivashinsky Equation
+                    </h4>
+                    <p class="text-justify">
+                        In this project, we aim to caracterize the phases of the damped
+                        Kuramoto-Sivashinsky Equation using his behavior in the frequency space via
+                        extensive simulations. We also use the Dynamic Systems approach, using
+                        parameters like Lyapunov Exponents.
+                    </p>
+                    <p>
+                        <em>Collaborators:</em>
+                        <a href="http://nicolao.paginas.ufsc.br/">Lucas Nicolao</a>
+                    </p>
+                    <h4>
+                        Dynamic Simulator</h4>
+                    <p class="text-justify">
+                        In this project we aim to create a multi purpose simulator, with focus in
+                        Dynamic Systems. The algorithm have versions in C/C++ and MATLAB/Octave.
+                    </p>
+                    <p>
+                        <em>Collaborators:
+                        </em>
+                        <a href="https://github.com/romcenci">Rômulo Cenci,</a>
+                        <a href="https://github.com/francosauvisky">Franco Sauvisky</a>
+                        <br>
+                        <em>Github:
+                        </em>
+                        <a href="https://github.com/romcenci/DynamicSimulator">@DynamicSimulator</a>
+                    </p>
                 </div>
-                <div class="col-sm-9">
-                    <div
-                        class="active tab-pane fade show"
-                        id="About"
-                        role="tabpanel"
-                        aria-labelledby="About-tab">
-                        <h2 class="">Leonardo Souto Ferreira</h2>
-                        <p class="text-justify">Hello, I'm a PhD student in Ecology and Evolution at the
-                            University of Chicago under supervision of Mercedes Pascual, and a member of
-                            <a href="https://covid19br.github.io/">Observatório COVID-19 BR</a>. I'm
-                            currently working with mathematical models of epidemics applied to urban malaria
-                            in India, studying the role of climate in transmission. I have experience with
-                            COVID-19 modeling, mostly concerning vaccination strategies. I also have
-                            experience in image processing of omnidirectional images with complex analysis
-                            and spatio-temporal chaos. Feel free to contact me.
-                        </p>
+                <div class="tab-pane container fade" id="Works" role="tabpanel" aria-labelledby="Works-tab">
+                    <h2 class="">Publications</h2>
+                    <h3>Preprints</h3>
+                    <h4>2021</h4>
+                    <h3 class="">Papers</h3>
+                    <h4>2022</h4>
+                    <h5>Percolation across households in mechanistic models of non-pharmaceutical
+                        interventions in SARS-CoV-2 disease dynamics</h5>
+                    <p class="text-justify">Caroline Franco, Leonardo Souto Ferreira, Vítor
+                        Sudbrack, Marcelo Eduardo Borges, Silas Poloni, Paulo Inácio Prado, Lisa J
+                        White, Ricardo Águas, Roberto André Kraenkel, Renato Mendes Coutinho<br>
+                        Publication: Epidemics, volume 39, June 2022<br>
+                        [<a href="https://www.sciencedirect.com/science/article/pii/S1755436522000111">Paper</a>][<a
+                            href="https://github.com/francocarol/covid_perc">Code</a>]
+                    </p>
+                    <h5>Assessing the best time interval between doses in a two-dose vaccination regimen to reduce the
+                        number of deaths in an ongoing epidemic of SARS-CoV-2</h5>
+                    <p class="text-justify">Leonardo Souto Ferreira, Otavio Canton, Rafael Lopes
+                        Paixão da Silva, Silas Poloni, Vítor Sudbrack, Marcelo Eduardo Borges,Caroline
+                        Franco, Flávia Maria Darcie Marquitti, José Cássio de Moraes, Maria Amélia de
+                        Sousa Mascena Veras, Roberto André Kraenkel, Renato Mendes Coutinho<br>
+                        Publication: PLOS Computational Biology, volume 39, June 2022<br>
+                        [<a
+                            href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009978">Paper</a>][<a
+                            href="https://github.com/covid19br/VaxModel-paper">Code</a>]
+                    </p>
+                    <h4 class="">2021</h4>
+                    <h5>Model-based estimation of transmissibility and reinfection of SARS-CoV-2 P.1
+                        variant</h5>
+                    <p class="text-justify">Renato Mendes Coutinho, Flavia Maria Darcie Marquitti,
+                        Leonardo Souto Ferreira, Marcelo Eduardo Borges, Rafael Lopes Paixão da Silva,
+                        Otavio Canton, Tatiana P. Portella, Silas Poloni, Caroline Franco, Mateusz M.
+                        Plucinski, Fernanda C. Lessa, Antônio Augusto Moura da Silva, Roberto Andre
+                        Kraenkel, Maria Amélia de Sousa Mascena Veras, Paulo Inácio Prado<br>
+                        Publication: Nature Communications Medicine, volume 1, November 2021<br>
+                        [<a href="https://www.nature.com/articles/s43856-021-00048-6">Paper</a>][<a
+                            href="https://github.com/covid19br/model-P1-variant">Code</a>]
+                    </p>
+                    <h5>Brazil in the face of new SARS-CoV-2 variants: emergencies and challenges in
+                        public health</h5>
+                    <p class="text-justify">Authors: Flávia Maria Darcie Marquitti, Renato Mendes
+                        Coutinho, Leonardo Souto Ferreira, Marcelo Eduardo Borges, Tatiana Pineda
+                        Portella, Rafael Lopes Paixão da Silva, Otavio Canton, Silas Poloni, Caroline
+                        Franco, Verônica Coelho, Lorena Barberia, Monica de Bolle, Alexandra Crispim
+                        Boing, Maria Rita Donalisio, Antonio Fernando Boing, Antônio Augusto Moura da
+                        Silva, Paulo Inácio Prado, Maria Amélia de Sousa Mascena Veras, Roberto André
+                        Kraenkel<br>
+                        Publication: Revista Brasileira de Epidemiologia, volume 24, March 2021<br>
+                        [<a href="https://doi.org/10.1101/2021.06.07.21258403">Paper</a>]
+                    </p>
+                    <h4 class="">2020</h4>
+                    <h5>Bounded biharmonic blending of Möbius transformations for flexible
+                        omnidirectional image rectification
+                    </h5>
+                    <p class="text-justify">
+                        Authors: Leonardo Souto Ferreira, Leonardo Sacht<br>
+                        Publication: Computers and Graphics, volume 93, December 2020 (SIBGRAPI 2020).<br>
+                        Paper and source code at [<a href="https://leo-souto.github.io/BBW_Moebius/">Project Page</a>]
+                    </p>
+                    <h4 class="">2017</h4>
+                    <h5>Local Moebius Transformations Applied to Omnidirectional Images</h5>
+                    <p class="text-justify">
+                        Authors: Leonardo Souto Ferreira, Leonardo Sacht, Luiz Velho.<br>
+                        Publication: Computers and Graphics, volume 68, November 2017 (SIBGRAPI 2017).<br>
+                        [<a href="https://www.visgraf.impa.br/Data/RefBib/PS_PDF/cag2017/Moebius2017.pdf">Paper</a>] [<a
+                            href="https://www.visgraf.impa.br/moebius360/files/localmoebius1080p.zip">Source code</a>]
+                        [<a href="https://www.visgraf.impa.br/moebius360/">Project Page</a>]
+                    </p>
+                    <hr>
+                    <h4 class="">Technical Reports</h4>
+                    <h5>Zoom for Virtual Reality based on Moebius Transformations</h5>
+                    <p class="text-justify">
+                        Authors: Andre Potengy, Luiz Velho, Leonardo Sacht, Leonardo Souto Ferreira.<br>
+                        Publication: Technical Report TR-03-2018, VISGRAF Lab - IMPA.<br>
+                        Year: 2018<br>
+                        [<a href="http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-03-2018/tr-03-2018.pdf">Paper</a>]
+                    </p>
+                    <h5>Moebius Transformations Applied to Omnidirectional Images</h5>
+                    <p class="text-justify">
+                        Authors: Leonardo Souto Ferreira, Leonardo Sacht, Luiz Velho.<br>
+                        Publication: Technical Report TR-02-2017, Laboratório VISGRAF - IMPA.<br>
+                        Year: 2017<br>
+                        [<a href="http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-02-2017/tr-02-2017.pdf">Paper</a>]
+                    </p>
+                </div>
+                <div class="tab-pane container fade" id="Formation" role="tabpanel" aria-labelledby="Formation-tab">
+                    <h2 class="">Education</h2>
+                    <h4 class="">Degree Education</h4>
+                    <h5>Masters in Physics</h5>
+                    <p class="text-justify">
+                        Institute for Theoretical Physics, IFT-Unesp, Brazil.<br>
+                        Year:2020-Ongoing.
+                    </p>
+                    <h5>Physics Bachelor</h5>
+                    <p class="text-justify">
+                        Federal University of Santa Catarina, UFSC, Brazil.<br>
+                        Year:2015-2019.
+                    </p>
+                    <hr>
+                    <h4 class="">Complementary Education</h4>
+                    <h5>2nd Latin American School on Parallel Programming for High Performance
+                        Computing.</h5>
+                    <p class="text-justify">
+                        ICTP South American Institute for Fundamental Research, ICTP - SAIFR, Brazil.<br>
+                        Year:2019.<br>
+                        [<a href="./images/Certificate_Part30.pdf">Certificate</a>]
+                    </p>
+                    <h5>Computer Graphics 2D.</h5>
+                    <p class="text-justify">
+                        Instituto de Matemática Pura e Aplicada, IMPA, Brazil.<br>
+                        Year:2017.<br>
+                    </p>
+                    <h5>Image and video processing: From Mars to Hollywood with a stop at the hospital.</h5>
+                    <p class="text-justify">
+                        Duke University, DUKE, EUA.<br>
+                        Year:2016.<br>
+                        [<a
+                            href="https://www.coursera.org/account/accomplishments/certificate/8FJPB7ZV4D">Certificate</a>]
+                    </p>
+
+                </div>
+                <div class="tab-pane container fade" id="Contact" role="tabpanel" aria-labelledby="Contact-tab">
+                    <h2 class="">Contact</h2>
+                    <p>Email: leosoutof96@gmail.com<br>
+                        Institutional Email: leonardo.souto@unesp.br<br>
                         <hr>
-                        <h3>
-                            Current Projects
-                        </h3>
-                        <h4>Urban malaria and Humidity</h4>
-                        <p class="text-justify">
-                            Using climate data and number of cases of malaria caused by P. falciparum,
-                            transmitted by A. stephensi, we plan to study the role of humidity iwith models
-                            that consider entomological characteristics of mosquitoes. This work has
-                            implications for malaria containment under climate change.
-                        </p>
-                        <p>
-                            <em>Collaborators:</em>
-                            <a href="https://voices.uchicago.edu/mercedespascual/">Mercedes Pascual</a><br>
-                            <em>Related Works:</em>
-                            None yet.
-                        </p>
-                        <h4>Mathematical Modelling of COVID-19</h4>
-                        <p class="text-justify">
-                            We aim to help the understanding of COVID-19 epidemics through mathematical
-                            models, mainly compartmental ones, such as SEIR-like models. Our interests are
-                            variants, non-pharmaceutical interventions and vaccination scenarios. We use
-                            mainly data from Brazil.
-                        </p>
-                        <p>
-                            <em>Collaborators:</em>
-                            Many, see Publications section or our project on
-                            <a
-                                href="https://www.researchgate.net/project/Mathematical-Modelling-of-COVID-19">ResearchGate</a><br>
-                            <em>Related Works:</em>
-                            Many, see my most recent papers in Publications section.
-                        </p>
-                        <h3>
-                            Old projects
-                        </h3>
-                        <h4>
-                            Omnidirectional Images and Moebius Transformations
-                        </h4>
-                        <p class="text-justify">
-                            In this project we aim to perceptually optimize omnidirectional images through
-                            Local Moebius Transformations, because of the relationship between the Complex
-                            Plane and Spherical Images.
-                        </p>
-                        <p>
-                            <em>Collaborators:</em>
-                            <a href="http://mtm.ufsc.br/~leo/">Leonardo Sacht</a>,
-                            <a href="http://lvelho.impa.br/">Luiz Velho<a>
-                                    <br>
-                                    <em>Related Works:</em>
-                                    <a href="https://leo-souto.github.io/BBW_Moebius/">
-                                        Bounded biharmonic blending of Möbius transformations for flexible
-                                        omnidirectional image rectification</a><br>
-                                    <a href="https://www.visgraf.impa.br/moebius360/">
-                                        Local Moebius transformations applied to omnidirectional images</a>
-                                </p>
-                                <h4>
-                                    The Damped Kuramoto-Sivashinsky Equation
-                                </h4>
-                                <p class="text-justify">
-                                    In this project, we aim to caracterize the phases of the damped
-                                    Kuramoto-Sivashinsky Equation using his behavior in the frequency space via
-                                    extensive simulations. We also use the Dynamic Systems approach, using
-                                    parameters like Lyapunov Exponents.
-                                </p>
-                                <p>
-                                    <em>Collaborators:</em>
-                                    <a href="http://nicolao.paginas.ufsc.br/">Lucas Nicolao</a>
-                                </p>
-                                <h4>
-                                    Dynamic Simulator</h4>
-                                <p class="text-justify">
-                                    In this project we aim to create a multi purpose simulator, with focus in
-                                    Dynamic Systems. The algorithm have versions in C/C++ and MATLAB/Octave.
-                                </p>
-                                <p>
-                                    <em>Collaborators:
-                                    </em>
-                                    <a href="https://github.com/romcenci">Rômulo Cenci,</a>
-                                    <a href="https://github.com/francosauvisky">Franco Sauvisky</a>
-                                    <br>
-                                    <em>Github:
-                                    </em>
-                                    <a href="https://github.com/romcenci/DynamicSimulator">@DynamicSimulator</a>
-                                </p>
-                            </div>
-                            <div
-                                class="tab-pane container fade"
-                                id="Works"
-                                role="tabpanel"
-                                aria-labelledby="Works-tab">
-                                <h2 class="">Publications</h2>
-                                <h3>Preprints</h3>
-                                <h4>2021</h4>
-                                <h5>Assessing optimal time between doses in two-dose vaccination regimen in an
-                                    ongoing epidemic of SARS-CoV-2</h5>
-                                <p class="text-justify">Leonardo Souto Ferreira, Otavio Canton, Rafael Lopes
-                                    Paixão da Silva, Silas Poloni, Vítor Sudbrack, Marcelo Eduardo Borges,Caroline
-                                    Franco, Flávia Maria Darcie Marquitti, José Cássio de Moraes, Maria Amélia de
-                                    Sousa Mascena Veras, Roberto André Kraenkel, Renato Mendes Coutinho<br>
-                                    In MedRxiv<br>
-                                    [<a href="https://www.medrxiv.org/content/10.1101/2021.07.28.21261200v1">Paper</a>][<a href="https://github.com/covid19br/VaxModel-paper">Code</a>]
-                                </p>
-                                <h5>Percolation across households in mechanistic models of non-pharmaceutical
-                                    interventions in SARS-CoV-2 disease dynamics</h5>
-                                <p class="text-justify">Caroline Franco, Leonardo Souto Ferreira, Vítor
-                                    Sudbrack, Marcelo Eduardo Borges, Silas Poloni, Paulo Inácio Prado, Lisa J
-                                    White, Ricardo Águas, Roberto André Kraenkel, Renato Mendes Coutinho<br>
-                                    In MedRxiv<br>
-                                    [<a href="https://www.medrxiv.org/content/10.1101/2021.06.07.21258403v1">Paper</a>][<a href="https://github.com/francocarol/covid_perc">Code</a>]
-                                </p>
-                                <h5>Model-based estimation of transmissibility and reinfection of SARS-CoV-2 P.1
-                                    variant</h5>
-                                <p class="text-justify">Renato Mendes Coutinho, Flavia Maria Darcie Marquitti,
-                                    Leonardo Souto Ferreira, Marcelo Eduardo Borges, Rafael Lopes Paixão da Silva,
-                                    Otavio Canton, Tatiana P. Portella, Silas Poloni, Caroline Franco, Mateusz M.
-                                    Plucinski, Fernanda C. Lessa, Antônio Augusto Moura da Silva, Roberto Andre
-                                    Kraenkel, Maria Amélia de Sousa Mascena Veras, Paulo Inácio Prado<br>
-                                    In MedRxiv<br>
-                                    [<a href="https://www.medrxiv.org/content/10.1101/2021.03.03.21252706v3">Paper</a>][<a href="https://github.com/covid19br/model-P1-variant">Code</a>]
-                                </p>
-                                <h3 class="">Papers</h3>
-                                <h4 class="">2021</h4>
-                                <h5>Brazil in the face of new SARS-CoV-2 variants: emergencies and challenges in
-                                    public health</h5>
-                                <p class="text-justify">Authors: Flávia Maria Darcie Marquitti, Renato Mendes
-                                    Coutinho, Leonardo Souto Ferreira, Marcelo Eduardo Borges, Tatiana Pineda
-                                    Portella, Rafael Lopes Paixão da Silva, Otavio Canton, Silas Poloni, Caroline
-                                    Franco, Verônica Coelho, Lorena Barberia, Monica de Bolle, Alexandra Crispim
-                                    Boing, Maria Rita Donalisio, Antonio Fernando Boing, Antônio Augusto Moura da
-                                    Silva, Paulo Inácio Prado, Maria Amélia de Sousa Mascena Veras, Roberto André
-                                    Kraenkel<br>
-                                    Publication: Revista Brasileira de Epidemiologia, volume 24, March 2021<br>
-                                    [<a href="https://doi.org/10.1101/2021.06.07.21258403">Paper</a>]
-                                </p>
-                                <h4 class="">2020</h4>
-                                <h5>Bounded biharmonic blending of Möbius transformations for flexible
-                                    omnidirectional image rectification
-                                </h5>
-                                <p class="text-justify">
-                                    Authors: Leonardo Souto Ferreira, Leonardo Sacht<br>
-                                    Publication: Computers and Graphics, volume 93, December 2020 (SIBGRAPI 2020).<br>
-                                    Paper and source code at [<a href="https://leo-souto.github.io/BBW_Moebius/">Project Page</a>]
-                                </p>
-                                <h4 class="">2017</h4>
-                                <h5>Local Moebius Transformations Applied to Omnidirectional Images</h5>
-                                <p class="text-justify">
-                                    Authors: Leonardo Souto Ferreira, Leonardo Sacht, Luiz Velho.<br>
-                                    Publication: Computers and Graphics, volume 68, November 2017 (SIBGRAPI 2017).<br>
-                                    [<a
-                                        href="https://www.visgraf.impa.br/Data/RefBib/PS_PDF/cag2017/Moebius2017.pdf">Paper</a>] [<a href="https://www.visgraf.impa.br/moebius360/files/localmoebius1080p.zip">Source code</a>] [<a href="https://www.visgraf.impa.br/moebius360/">Project Page</a>]
-                                </p>
-                                <hr>
-                                <h4 class="">Technical Reports</h4>
-                                <h5>Zoom for Virtual Reality based on Moebius Transformations</h5>
-                                <p class="text-justify">
-                                    Authors: Andre Potengy, Luiz Velho, Leonardo Sacht, Leonardo Souto Ferreira.<br>
-                                    Publication: Technical Report TR-03-2018, VISGRAF Lab - IMPA.<br>
-                                    Year: 2018<br>
-                                    [<a
-                                        href="http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-03-2018/tr-03-2018.pdf">Paper</a>]
-                                </p>
-                                <h5>Moebius Transformations Applied to Omnidirectional Images</h5>
-                                <p class="text-justify">
-                                    Authors: Leonardo Souto Ferreira, Leonardo Sacht, Luiz Velho.<br>
-                                    Publication: Technical Report TR-02-2017, Laboratório VISGRAF - IMPA.<br>
-                                    Year: 2017<br>
-                                    [<a
-                                        href="http://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-02-2017/tr-02-2017.pdf">Paper</a>]
-                                </p>
-                            </div>
-                            <div
-                                class="tab-pane container fade"
-                                id="Formation"
-                                role="tabpanel"
-                                aria-labelledby="Formation-tab">
-                                <h2 class="">Education</h2>
-                                <h4 class="">Degree Education</h4>
-                                <h5>Masters in Physics</h5>
-                                <p class="text-justify">
-                                    Institute for Theoretical Physics, IFT-Unesp, Brazil.<br>
-                                    Year:2020-Ongoing.
-                                </p>
-                                <h5>Physics Bachelor</h5>
-                                <p class="text-justify">
-                                    Federal University of Santa Catarina, UFSC, Brazil.<br>
-                                    Year:2015-2019.
-                                </p>
-                                <hr>
-                                <h4 class="">Complementary Education</h4>
-                                <h5>2nd Latin American School on Parallel Programming for High Performance
-                                    Computing.</h5>
-                                <p class="text-justify">
-                                    ICTP South American Institute for Fundamental Research, ICTP - SAIFR, Brazil.<br>
-                                    Year:2019.<br>
-                                    [<a href="./images/Certificate_Part30.pdf">Certificate</a>]
-                                </p>
-                                <h5>Computer Graphics 2D.</h5>
-                                <p class="text-justify">
-                                    Instituto de Matemática Pura e Aplicada, IMPA, Brazil.<br>
-                                    Year:2017.<br>
-                                </p>
-                                <h5>Image and video processing: From Mars to Hollywood with a stop at the hospital.</h5>
-                                <p class="text-justify">
-                                    Duke University, DUKE, EUA.<br>
-                                    Year:2016.<br>
-                                    [<a
-                                        href="https://www.coursera.org/account/accomplishments/certificate/8FJPB7ZV4D">Certificate</a>]
-                                </p>
-
-                            </div>
-                            <div
-                                class="tab-pane container fade"
-                                id="Contact"
-                                role="tabpanel"
-                                aria-labelledby="Contact-tab">
-                                <h2 class="">Contact</h2>
-                                <p>Email: leosoutof96@gmail.com<br>
-                                    Institutional Email: leonardo.souto@unesp.br<br>
-                                    <hr>
-                                    Universidade Estadual Paulista Júlio de Mesquita Filho, Instituto de Física
-                                    Teórica.<br>
-                                    R. Dr. Bento Teobaldo Ferraz, 271 - Bloco II<br>
-                                    Várzea da Barra Funda<br>
-                                    01140070 - São Paulo, SP - Brasil<br>
-                                    Telefone: (11) 33937800<br>
-                                    Fax: (11) 33937899<br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                        Universidade Estadual Paulista Júlio de Mesquita Filho, Instituto de Física
+                        Teórica.<br>
+                        R. Dr. Bento Teobaldo Ferraz, 271 - Bloco II<br>
+                        Várzea da Barra Funda<br>
+                        01140070 - São Paulo, SP - Brasil<br>
+                        Telefone: (11) 33937800<br>
+                        Fax: (11) 33937899<br>
+                    </p>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <!-- Default Scripts -->
-                <script
-                    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                    crossorigin="anonymous"></script>
-                <script
-                    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-                    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-                    crossorigin="anonymous"></script>
-                <script
-                    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-                    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-                    crossorigin="anonymous"></script>
-            </body>
+    <!-- Default Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
 
-        </html>
+</html>
