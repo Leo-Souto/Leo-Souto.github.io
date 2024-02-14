@@ -1,8 +1,11 @@
 ---
 title: "Leonardo Souto Ferreira"
 ---
+<img style="float: left;" src="images/Leonardo_Souto_photo.png">
 
-Hello, I'm a PhD student in Ecology and Evolution at the University of Chicago under supervision of Mercedes Pascual, and a member of <a href="https://covid19br.github.io/">Observatório COVID-19 BR</a>. I'm currently working with mathematical models of epidemics applied to urban malaria in India, studying the role of climate in transmission. I have experience with COVID-19 modeling, mostly concerning vaccination strategies. I also have experience in image processing of omnidirectional images with complex analysis and spatio-temporal chaos. Feel free to contact me.
+Hello, I'm a PhD student in Biology at New York University under supervision of Mercedes Pascual, and a member of <a href="https://covid19br.github.io/">Observatório COVID-19 BR</a>. I'm currently working with mathematical models of epidemics applied to urban malaria in India, studying the role of climate in transmission. I have experience with COVID-19 modeling, mostly concerning vaccination strategies. I also have experience in image processing of omnidirectional images with complex analysis and spatio-temporal chaos. Feel free to contact me.
+
+<br clear="left"/>
 
 ## Current Projects
 
