@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Leonardo Souto Ferreira",
+    "section": "",
+    "text": "Hello, I’m a PhD student in Ecology and Evolution at the University of Chicago under supervision of Mercedes Pascual, and a member of Observatório COVID-19 BR. I’m currently working with mathematical models of epidemics applied to urban malaria in India, studying the role of climate in transmission. I have experience with COVID-19 modeling, mostly concerning vaccination strategies. I also have experience in image processing of omnidirectional images with complex analysis and spatio-temporal chaos. Feel free to contact me."
+  },
+  {
+    "objectID": "index.html#current-projects",
+    "href": "index.html#current-projects",
+    "title": "Leonardo Souto Ferreira",
+    "section": "Current Projects",
+    "text": "Current Projects\n\nUrban malaria and Humidity\nUsing climate data and number of cases of malaria caused by P. falciparum, transmitted by A. stephensi, we plan to study the role of humidity with models that consider entomological characteristics of mosquitoes. This work has implications for malaria containment under climate change.\nCollaborators: Mercedes Pascual Related Works: None yet."
+  },
+  {
+    "objectID": "index.html#old-projects",
+    "href": "index.html#old-projects",
+    "title": "Leonardo Souto Ferreira",
+    "section": "Old Projects",
+    "text": "Old Projects\n\nMathematical Modelling of COVID-19\nWe aim to help the understanding of COVID-19 epidemics through mathematical models, mainly compartmental ones, such as SEIR-like models. Our interests are variants, non-pharmaceutical interventions and vaccination scenarios. We use mainly data from Brazil.\nCollaborators: Many, see Publications section or our project on ResearchGate Related Works: Many, see my most recent papers in Publications section.\n\n\nOmnidirectional Images and Moebius Transformations\nIn this project we aim to perceptually optimize omnidirectional images through Local Moebius Transformations, because of the relationship between the Complex Plane and Spherical Images.\nCollaborators: Leonardo Sacht, Luiz Velho  Related Works: Bounded biharmonic blending of Möbius transformations for flexible omnidirectional image rectification Local Moebius transformations applied to omnidirectional images\n\n\nThe Damped Kuramoto-Sivashinsky Equation\nIn this project, we aim to caracterize the phases of the damped Kuramoto-Sivashinsky Equation using his behavior in the frequency space via extensive simulations. We also use the Dynamic Systems approach, using parameters like Lyapunov Exponents.\nCollaborators: Lucas Nicolao\n\n\nDynamic Simulator\nIn this project we aim to create a multi purpose simulator, with focus in Dynamic Systems. The algorithm have versions in C/C++ and MATLAB/Octave.\nCollaborators: Rômulo Cenci, Franco Sauvisky  Github: @DynamicSimulator"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Leonardo Souto Ferreira, Flavia Maria Darcie Marquitti, Rafael Lopes Paixão da Silva, Marcelo Eduardo Borges, Marcelo Ferreira da Costa Gomes, et al. (2023). Estimating the impact of implementation and timing of the COVID-19 vaccination programme in Brazil: a counterfactual analysis. The Lancet Regional Health – Americas, 17. DOI: 10.1016/j.lana.2022.100397.\nGabriel Cardozo Müller, Leonardo Souto Ferreira, Felipe Ernesto Mesias Campos, Marcelo Eduardo Borges, Gabriel Berg de Almeida, et al. (2023). Modeling the impact of child vaccination (5–11 y) on overall COVID-19 related hospitalizations and mortality in a context of omicron variant predominance and different vaccination coverage paces in Brazil. The Lancet Regional Health – Americas, 17. DOI: 10.1016/j.lana.2022.100396."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "",
+    "text": "Leonardo Souto Ferreira, Flavia Maria Darcie Marquitti, Rafael Lopes Paixão da Silva, Marcelo Eduardo Borges, Marcelo Ferreira da Costa Gomes, et al. (2023). Estimating the impact of implementation and timing of the COVID-19 vaccination programme in Brazil: a counterfactual analysis. The Lancet Regional Health – Americas, 17. DOI: 10.1016/j.lana.2022.100397.\nGabriel Cardozo Müller, Leonardo Souto Ferreira, Felipe Ernesto Mesias Campos, Marcelo Eduardo Borges, Gabriel Berg de Almeida, et al. (2023). Modeling the impact of child vaccination (5–11 y) on overall COVID-19 related hospitalizations and mortality in a context of omicron variant predominance and different vaccination coverage paces in Brazil. The Lancet Regional Health – Americas, 17. DOI: 10.1016/j.lana.2022.100396."
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\nLeonardo Souto Ferreira, Otavio Canton, Rafael Lopes Paixão da Silva, Silas Poloni, Vítor Sudbrack, et al. (2022). Assessing the best time interval between doses in a two-dose vaccination regimen to reduce the number of deaths in an ongoing epidemic of SARS-CoV-2. PLOS Computational Biology, 18(3). DOI: 10.1371/journal.pcbi.1009978.\nÂngela Maria Bagattini, Michelle Rosa, Lorena Mendes Simon, Gabriel Berg de Almeida, Leonardo Souto Ferreira, et al. (2022). PP25 Brazilian Collaborative Network For COVID-19 Modeling: Successful Experience Of Using Real-Time Science To Support Evidence-Based Decision-Making. International Journal of Technology Assessment in Health Care, 38(S1). DOI: 10.1017/S0266462322001702.\nLeonardo Souto Ferreira, Gabriel Berg de Almeida, Marcelo Eduardo Borges, Lorena Mendes Simon, Silas Poloni, et al. (2022). Modelling optimal vaccination strategies against COVID-19 in a context of Gamma variant predominance in Brazil. Vaccine, 40(46). DOI: 10.1016/j.vaccine.2022.09.082.\nLeonardo Souto Ferreira. (2022). Modelling vaccination in an ongoing epidemics of SARS-CoV-2. Universidade Estadual Paulista. MSc Thesis. link.\nCaroline Franco, Leonardo Souto Ferreira, Vítor Sudbrack, Marcelo Eduardo Borges, Silas Poloni, et al. (2022). Percolation across households in mechanistic models of non-pharmaceutical interventions in SARS-CoV-2 disease dynamics. Epidemics, 39. DOI: 10.1016/j.epidem.2022.100551.\nMarcelo Eduardo Borges, Leonardo Souto Ferreira, Silas Poloni, Angela Maria Bagattini, Caroline Franco, et al. (2022). Modelling the impact of school reopening and contact tracing strategies on Covid-19 dynamics in different epidemiologic settings in Brazil. Global Epidemiology, 4. DOI: 10.1016/j.gloepi.2022.100094."
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\nRenato Mendes Coutinho, Flavia Maria Darcie Marquitti, Leonardo Souto Ferreira, Marcelo Eduardo Borges, Rafael Lopes Paixão da Silva, et al. (2021). Model-based estimation of transmissibility and reinfection of SARS-CoV-2 P.1 variant. Communications Medicine, 1(1). DOI: 10.1038/s43856-021-00048-6.\nFlavia Maria Darcie Marquitti, Renato Mendes Coutinho, Leonardo Souto Ferreira, Marcelo Eduardo Borges, Tatiana Pineda Portella, et al. (2021). Brazil in the face of new SARS-CoV-2 variants: emergencies and challenges in public health. Revista Brasileira de Epidemiologia, 24. DOI: 10.1590/1980-549720210022."
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\nLeonardo Souto Ferreira and Leonardo Sacht. (2020). Bounded biharmonic blending of Möbius transformations for flexible omnidirectional image rectification. Computers & Graphics, 93. DOI: 10.1016/j.cag.2020.09.011."
+  },
+  {
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "2017",
+    "text": "2017\nLeonardo Souto Ferreira, Leonardo Sacht and Luiz Velho. (2017). Local Moebius transformations applied to omnidirectional images. Computers & Graphics, 68. DOI: 10.1016/j.cag.2017.08.005."
+  }
+]

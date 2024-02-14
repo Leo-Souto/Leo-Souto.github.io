@@ -1,0 +1,117 @@
+---
+title: "Publications"
+---
+
+```{r, echo = F, warning = F, message = F}
+library(tidyverse)
+library(bib2df)
+
+df <- bib2df("files/papers2.bib", separate_names = T) %>%
+  select(CATEGORY, BIBTEXKEY, AUTHOR, JOURNAL, INSTITUTION, VOLUME, NUMBER, MONTH, YEAR, TITLE, URL, DOI, SHORTTITLE, TYPE, SCHOOL)
+
+create_name_string <- function(AUTHOR, and_last = TRUE, last = " and ", n_max = NULL, max_name = "et al") {
+  df <- AUTHOR
+  author_names <- unlist(df$full_name)
+  n_names <- length(author_names)
+  name_string <- ""
+  if (!is.null(n_max)) {
+    if (n_names <= n_max) {
+      if (and_last) {
+        if (n_names > 1) {
+          name_string <- paste(author_names[1:(n_names - 1)], sep = ", ", collapse = ", ")
+          name_string <- paste0(name_string, last, author_names[n_names])
+        } else {
+          name_string <- author_names
+        }
+      } else {
+        name_string <- paste(author_names, sep = ", ", collapse = ", ")
+      }
+    } else {
+      if (and_last) {
+        if (n_names > 1) {
+          name_string <- paste(author_names[1:min(n_names, n_max)], sep = ", ", collapse = ", ")
+          name_string <- paste0(name_string, ", ", max_name)
+        } else {
+          name_string <- author_names
+        }
+      } else {
+        name_string <- paste(author_names, sep = ", ", collapse = ", ")
+      }
+    }
+  } else {
+    if (and_last) {
+      if (n_names > 1) {
+        name_string <- paste(author_names[1:(n_names - 1)], sep = ", ", collapse = ", ")
+        name_string <- paste0(name_string, last, author_names[n_names])
+      }
+    } else {
+      name_string <- paste(author_names, sep = ", ", collapse = ", ")
+    }
+  }
+  return(name_string)
+}
+
+generate_string <- function(x, bold = TRUE, name_bold = "Leonardo Souto Ferreira") {
+  if (x["CATEGORY"] == "ARTICLE") {
+    name_list <- create_name_string(x$AUTHOR, n_max = 5)
+    name_list <- sub(name_bold, paste0("**", name_bold, "**"), name_list)
+    year <- paste0("(", x["YEAR"], ")")
+    title <- x["TITLE"]
+    title <- gsub("\\{|\\}", "", title)
+    volume <- x["VOLUME"]
+    number <- x["NUMBER"]
+    if (is.na(volume)) {
+      if (is.na(number)) {
+        journal <- paste0("*", x["JOURNAL"], "*")
+      } else {
+        journal <- paste0("*", x["JOURNAL"], ", (", number, ")", "*")
+      }
+    } else {
+      if (is.na(number)) {
+        journal <- paste0("*", x["JOURNAL"], ", ", volume, "*")
+      } else {
+        journal <- paste0("*", x["JOURNAL"], ", ", volume, "(", number, ")", "*")
+      }
+    }
+    doi <- paste0("DOI: [", x["DOI"], "](", x["DOI"], ")")
+    url <- paste0("[link](", x["URL"], ")")
+    paper_string <- paste(name_list, year, title, journal, doi, sep = ". ")
+  } else if (x["CATEGORY"] == "MASTERSTHESIS") {
+    name_list <- create_name_string(x$AUTHOR, n_max = 5)
+    name_list <- sub(name_bold, paste0("**", name_bold, "**"), name_list)
+    year <- paste0("(", x["YEAR"], ")")
+    title <- x["TITLE"]
+    title <- gsub("\\{|\\}", "", title)
+    url <- paste0("[link](", x["URL"], ")")
+    school <- x["SCHOOL"]
+    type <- "MSc Thesis"
+    paper_string <- paste(name_list, year, title, school, type, url, sep = ". ")
+  } else {
+    paper_string <- c()
+  }
+
+  paper_string <- paste0(paper_string, ".")
+  return(paper_string)
+}
+
+
+result <- apply(df, 1, generate_string)
+
+df <- df %>%
+  mutate(name_list = result) %>%
+  arrange(desc(YEAR))
+```
+
+```{r, echo =F, results = "asis"}
+x <- split(df, forcats::fct_inorder(factor(df$YEAR)))
+for (i in 1:length(x)) {
+  year <- names(x)[i]
+  cat(paste("##", year))
+  cat("\n")
+  name_list <- x[[i]]$name_list %>% unlist()
+  cat(paste0(name_list, collapse = "\n\n"))
+  cat("\n")
+  cat("\n")
+}
+
+```

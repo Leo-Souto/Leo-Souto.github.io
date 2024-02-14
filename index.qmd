@@ -1,0 +1,59 @@
+---
+title: "Leonardo Souto Ferreira"
+---
+
+Hello, I'm a PhD student in Ecology and Evolution at the University of Chicago under supervision of Mercedes Pascual, and a member of <a href="https://covid19br.github.io/">Observatório COVID-19 BR</a>. I'm currently working with mathematical models of epidemics applied to urban malaria in India, studying the role of climate in transmission. I have experience with COVID-19 modeling, mostly concerning vaccination strategies. I also have experience in image processing of omnidirectional images with complex analysis and spatio-temporal chaos. Feel free to contact me.
+
+## Current Projects
+
+### Urban malaria and Humidity
+
+Using climate data and number of cases of malaria caused by P. falciparum, transmitted by A. stephensi, we plan to study the role of humidity with models that consider entomological characteristics of mosquitoes. This work has implications for malaria containment under climate change.
+
+<em>Collaborators:</em>
+<a href="https://voices.uchicago.edu/mercedespascual/">Mercedes Pascual</a><br>
+<em>Related Works:</em>
+None yet.
+
+## Old Projects
+
+### Mathematical Modelling of COVID-19
+
+We aim to help the understanding of COVID-19 epidemics through mathematical models, mainly compartmental ones, such as SEIR-like models. Our interests are variants, non-pharmaceutical interventions and vaccination scenarios. We use mainly data from Brazil.
+
+<em>Collaborators:</em>
+Many, see Publications section or our project on <a href="https://www.researchgate.net/project/Mathematical-Modelling-of-COVID-19">ResearchGate</a><br>
+<em>Related Works:</em>
+Many, see my most recent papers in Publications section.
+
+### Omnidirectional Images and Moebius Transformations
+
+In this project we aim to perceptually optimize omnidirectional images through Local Moebius Transformations, because of the relationship between the Complex Plane and Spherical Images.
+
+<em>Collaborators:</em>
+<a href="http://mtm.ufsc.br/~leo/">Leonardo Sacht</a>,
+<a href="http://lvelho.impa.br/">Luiz Velho<a>
+<br>
+<em>Related Works:</em>
+<a href="https://leo-souto.github.io/BBW_Moebius/">Bounded biharmonic blending of Möbius transformations for flexible omnidirectional image rectification</a><br>
+<a href="https://www.visgraf.impa.br/moebius360/">Local Moebius transformations applied to omnidirectional images</a>
+
+
+### The Damped Kuramoto-Sivashinsky Equation
+
+In this project, we aim to caracterize the phases of the damped Kuramoto-Sivashinsky Equation using his behavior in the frequency space via extensive simulations. We also use the Dynamic Systems approach, using parameters like Lyapunov Exponents.
+
+<em>Collaborators:</em>
+<a href="http://nicolao.paginas.ufsc.br/">Lucas Nicolao</a>
+
+
+### Dynamic Simulator
+
+In this project we aim to create a multi purpose simulator, with focus in Dynamic Systems. The algorithm have versions in C/C++ and MATLAB/Octave.
+
+<em>Collaborators:</em>
+<a href="https://github.com/romcenci">Rômulo Cenci,</a>
+<a href="https://github.com/francosauvisky">Franco Sauvisky</a>
+<br>
+<em>Github:</em>
+<a href="https://github.com/romcenci/DynamicSimulator">@DynamicSimulator</a>
