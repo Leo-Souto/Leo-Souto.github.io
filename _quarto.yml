@@ -9,13 +9,18 @@ website:
       - href: index.qmd
         text: About
       - publications.qmd
-    tools:
+      - education.qmd
+      - contact.qmd
+    right:
+      - text: "{{< iconify academicons google-scholar size=xl >}}"
+        href: https://scholar.google.com/citations?user=L_htG4AAAAAJ&hl=en
       - icon: github
         href: https://github.com/Leo-Souto
 
+
 format:
   html:
-    theme: cosmo
+    theme: pulse
     css: styles.css
     toc: true
 

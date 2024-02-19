@@ -1,1 +1,6 @@
 /* css styles */
+img {
+  border: 5px solid #593196;
+  border-radius: 5px;
+  margin: 5px;
+}

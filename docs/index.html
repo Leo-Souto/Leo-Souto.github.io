@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,13 +39,20 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,9 +76,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Leo Souto’s Personal Page</span>
     </a>
@@ -82,18 +90,36 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">About</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./education.html"> 
+<span class="menu-text">Education</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-    <a href="https://github.com/Leo-Souto" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-</div>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=L_htG4AAAAAJ&amp;hl=en"> 
+<span class="menu-text"><iconify-icon inline="" icon="academicons:google-scholar" style="font-size: 1.5em;"></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Leo-Souto"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -138,7 +164,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p><img style="float: left;" src="images/Leonardo_Souto_photo.png"></p>
 <p>Hello, I’m a PhD student in Biology at New York University under supervision of Mercedes Pascual, and a member of <a href="https://covid19br.github.io/">Observatório COVID-19 BR</a>. I’m currently working with mathematical models of epidemics applied to urban malaria in India, studying the role of climate in transmission. I have experience with COVID-19 modeling, mostly concerning vaccination strategies. I also have experience in image processing of omnidirectional images with complex analysis and spatio-temporal chaos. Feel free to contact me.</p>
@@ -147,30 +175,37 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="current-projects">Current Projects</h2>
 <section id="urban-malaria-and-humidity" class="level3">
 <h3 class="anchored" data-anchor-id="urban-malaria-and-humidity">Urban malaria and Humidity</h3>
-<p>Using climate data and number of cases of malaria caused by P. falciparum, transmitted by A. stephensi, we plan to study the role of humidity with models that consider entomological characteristics of mosquitoes. This work has implications for malaria containment under climate change.</p>
+<p><img style="float: right;" src="images/anopheles_stephensi.jpeg" width="300"></p>
+<p>Using climate data and number of cases of malaria caused by <em>P. falciparum</em>, transmitted by <em>A. stephensi</em>, we plan to study the role of humidity with models that consider entomological characteristics of mosquitoes. This work has implications for malaria containment under climate change.</p>
 <p><em>Collaborators:</em> <a href="https://voices.uchicago.edu/mercedespascual/">Mercedes Pascual</a><br> <em>Related Works:</em> None yet.</p>
+<p><br clear="right"></p>
 </section>
 </section>
 <section id="old-projects" class="level2">
 <h2 class="anchored" data-anchor-id="old-projects">Old Projects</h2>
 <section id="mathematical-modelling-of-covid-19" class="level3">
 <h3 class="anchored" data-anchor-id="mathematical-modelling-of-covid-19">Mathematical Modelling of COVID-19</h3>
+<p><img style="float: left; width: 300px;" src="images/covid_img.jpg"></p>
 <p>We aim to help the understanding of COVID-19 epidemics through mathematical models, mainly compartmental ones, such as SEIR-like models. Our interests are variants, non-pharmaceutical interventions and vaccination scenarios. We use mainly data from Brazil.</p>
 <p><em>Collaborators:</em> Many, see Publications section or our project on <a href="https://www.researchgate.net/project/Mathematical-Modelling-of-COVID-19">ResearchGate</a><br> <em>Related Works:</em> Many, see my most recent papers in Publications section.</p>
+<p><br clear="left"></p>
 </section>
 <section id="omnidirectional-images-and-moebius-transformations" class="level3">
 <h3 class="anchored" data-anchor-id="omnidirectional-images-and-moebius-transformations">Omnidirectional Images and Moebius Transformations</h3>
+<p><img style="float: right; width: 300px;" src="images/moebius_img.jpg"></p>
 <p>In this project we aim to perceptually optimize omnidirectional images through Local Moebius Transformations, because of the relationship between the Complex Plane and Spherical Images.</p>
 <p><em>Collaborators:</em> <a href="http://mtm.ufsc.br/~leo/">Leonardo Sacht</a>, <a href="http://lvelho.impa.br/">Luiz Velho</a><a> <br> <em>Related Works:</em> </a><a href="https://leo-souto.github.io/BBW_Moebius/">Bounded biharmonic blending of Möbius transformations for flexible omnidirectional image rectification</a><br> <a href="https://www.visgraf.impa.br/moebius360/">Local Moebius transformations applied to omnidirectional images</a></p>
+<p><br clear="right"></p>
 </section>
 <section id="the-damped-kuramoto-sivashinsky-equation" class="level3">
 <h3 class="anchored" data-anchor-id="the-damped-kuramoto-sivashinsky-equation">The Damped Kuramoto-Sivashinsky Equation</h3>
-<p>In this project, we aim to caracterize the phases of the damped Kuramoto-Sivashinsky Equation using his behavior in the frequency space via extensive simulations. We also use the Dynamic Systems approach, using parameters like Lyapunov Exponents.</p>
+<p>In this project, we aim to caracterize the phases of the damped Kuramoto-Sivashinsky Equation using his behavior in the frequency space via extensive simulations. We also use the Dynamical Systems approach, using parameters like Lyapunov Exponents.</p>
 <p><em>Collaborators:</em> <a href="http://nicolao.paginas.ufsc.br/">Lucas Nicolao</a></p>
 </section>
 <section id="dynamic-simulator" class="level3">
 <h3 class="anchored" data-anchor-id="dynamic-simulator">Dynamic Simulator</h3>
-<p>In this project we aim to create a multi purpose simulator, with focus in Dynamic Systems. The algorithm have versions in C/C++ and MATLAB/Octave.</p>
+<p><img style="float: left; width: 300px;" src="images/2.png"></p>
+<p>In this project we aim to create a multi purpose simulator, with focus in Dynamical Systems. The algorithm have versions in C/C++ and MATLAB/Octave.</p>
 <p><em>Collaborators:</em> <a href="https://github.com/romcenci">Rômulo Cenci,</a> <a href="https://github.com/francosauvisky">Franco Sauvisky</a> <br> <em>Github:</em> <a href="https://github.com/romcenci/DynamicSimulator"><span class="citation" data-cites="DynamicSimulator">@DynamicSimulator</span></a></p>
 
 
@@ -257,10 +292,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -270,8 +304,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -284,6 +327,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -327,6 +489,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -352,6 +515,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -412,6 +601,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

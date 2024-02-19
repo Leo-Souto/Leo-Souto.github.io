@@ -1,6 +1,6 @@
 ---
 title: "Publications"
----
+--- 
 
 ```{r, echo = F, warning = F, message = F}
 library(tidyverse)
@@ -73,7 +73,7 @@ generate_string <- function(x, bold = TRUE, name_bold = "Leonardo Souto Ferreira
         journal <- paste0("*", x["JOURNAL"], ", ", volume, "(", number, ")", "*")
       }
     }
-    doi <- paste0("DOI: [", x["DOI"], "](", x["DOI"], ")")
+    doi <- paste0("DOI: [", x["DOI"], "](https://doi.org/", x["DOI"], ")")
     url <- paste0("[link](", x["URL"], ")")
     paper_string <- paste(name_list, year, title, journal, doi, sep = ". ")
   } else if (x["CATEGORY"] == "MASTERSTHESIS") {

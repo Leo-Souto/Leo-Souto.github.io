@@ -1,9 +1,11 @@
 ---
 title: "Leonardo Souto Ferreira"
+lightbox: true
 ---
 <img style="float: left;" src="images/Leonardo_Souto_photo.png">
 
 Hello, I'm a PhD student in Biology at New York University under supervision of Mercedes Pascual, and a member of <a href="https://covid19br.github.io/">Observatório COVID-19 BR</a>. I'm currently working with mathematical models of epidemics applied to urban malaria in India, studying the role of climate in transmission. I have experience with COVID-19 modeling, mostly concerning vaccination strategies. I also have experience in image processing of omnidirectional images with complex analysis and spatio-temporal chaos. Feel free to contact me.
+
 
 <br clear="left"/>
 
@@ -11,16 +13,25 @@ Hello, I'm a PhD student in Biology at New York University under supervision of 
 
 ### Urban malaria and Humidity
 
-Using climate data and number of cases of malaria caused by P. falciparum, transmitted by A. stephensi, we plan to study the role of humidity with models that consider entomological characteristics of mosquitoes. This work has implications for malaria containment under climate change.
+<img style="float: right;" src="images/anopheles_stephensi.jpeg" width = "300">
+
+
+Using climate data and number of cases of malaria caused by *P. falciparum*, transmitted by *A. stephensi*, we plan to study the role of humidity with models that consider entomological characteristics of mosquitoes. This work has implications for malaria containment under climate change.
 
 <em>Collaborators:</em>
 <a href="https://voices.uchicago.edu/mercedespascual/">Mercedes Pascual</a><br>
 <em>Related Works:</em>
 None yet.
 
+<br clear="right"/>
+
+
+
 ## Old Projects
 
 ### Mathematical Modelling of COVID-19
+
+<img style="float: left; width: 300px;" src="images/covid_img.jpg">
 
 We aim to help the understanding of COVID-19 epidemics through mathematical models, mainly compartmental ones, such as SEIR-like models. Our interests are variants, non-pharmaceutical interventions and vaccination scenarios. We use mainly data from Brazil.
 
@@ -29,7 +40,12 @@ Many, see Publications section or our project on <a href="https://www.researchga
 <em>Related Works:</em>
 Many, see my most recent papers in Publications section.
 
+<br clear="left"/>
+
+
 ### Omnidirectional Images and Moebius Transformations
+
+<img style="float: right; width: 300px;" src="images/moebius_img.jpg">
 
 In this project we aim to perceptually optimize omnidirectional images through Local Moebius Transformations, because of the relationship between the Complex Plane and Spherical Images.
 
@@ -41,10 +57,11 @@ In this project we aim to perceptually optimize omnidirectional images through L
 <a href="https://leo-souto.github.io/BBW_Moebius/">Bounded biharmonic blending of Möbius transformations for flexible omnidirectional image rectification</a><br>
 <a href="https://www.visgraf.impa.br/moebius360/">Local Moebius transformations applied to omnidirectional images</a>
 
+<br clear="right"/>
 
 ### The Damped Kuramoto-Sivashinsky Equation
 
-In this project, we aim to caracterize the phases of the damped Kuramoto-Sivashinsky Equation using his behavior in the frequency space via extensive simulations. We also use the Dynamic Systems approach, using parameters like Lyapunov Exponents.
+In this project, we aim to caracterize the phases of the damped Kuramoto-Sivashinsky Equation using his behavior in the frequency space via extensive simulations. We also use the Dynamical Systems approach, using parameters like Lyapunov Exponents.
 
 <em>Collaborators:</em>
 <a href="http://nicolao.paginas.ufsc.br/">Lucas Nicolao</a>
@@ -52,7 +69,9 @@ In this project, we aim to caracterize the phases of the damped Kuramoto-Sivashi
 
 ### Dynamic Simulator
 
-In this project we aim to create a multi purpose simulator, with focus in Dynamic Systems. The algorithm have versions in C/C++ and MATLAB/Octave.
+<img style="float: left; width: 300px;" src="images/2.png">
+
+In this project we aim to create a multi purpose simulator, with focus in Dynamical Systems. The algorithm have versions in C/C++ and MATLAB/Octave.
 
 <em>Collaborators:</em>
 <a href="https://github.com/romcenci">Rômulo Cenci,</a>

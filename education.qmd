@@ -1,0 +1,42 @@
+---
+title: "Education"
+lightbox: true
+---
+
+## Degree Education
+
+##### PhD in Biology
+New York University, New York, USA.<br>
+Year: 2023-Ongoing.
+
+##### Non-thesis Master in Ecology & Evolution
+The University of Chicago, Chicago, USA.  
+Year: 2022-2023.
+
+##### Master in Physics
+Institute for Theoretical Physics, IFT-Unesp, Brazil.  
+Year: 2020-2022.
+
+##### Bachelor in Physics
+Federal University of Santa Catarina, UFSC, Brazil.  
+Year: 2015-2019.
+
+## Complementary Education
+##### Simulation-Based Inference for Epidemiological Dynamics
+University of Washington, Seattle, USA  
+Year: 2022.  
+<!-- [Certificate](./images/Certificate_Part30.pdf) -->
+
+##### 2nd Latin American School on Parallel Programming for High Performance Computing.
+ICTP South American Institute for Fundamental Research, ICTP - SAIFR, Brazil.  
+Year: 2019.  
+[Certificate](./images/Certificate_Part30.pdf)
+
+##### Computer Graphics 2D.
+Instituto de Matemática Pura e Aplicada, IMPA, Brazil.  
+Year: 2017.
+
+##### Image and video processing: From Mars to Hollywood with a stop at the hospital.
+Duke University, Durham, USA  
+Year: 2016.  
+[Certificate](https://www.coursera.org/account/accomplishments/certificate/8FJPB7ZV4D)
