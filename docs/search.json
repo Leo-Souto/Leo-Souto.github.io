@@ -1,24 +1,31 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Leonardo Souto Ferreira",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Hello, I’m a PhD student in Biology at New York University under supervision of Mercedes Pascual, and a member of Observatório COVID-19 BR. I’m currently working with mathematical models of epidemics applied to urban malaria in India, studying the role of climate in transmission. I have experience with COVID-19 modeling, mostly concerning vaccination strategies. I also have experience in image processing of omnidirectional images with complex analysis and spatio-temporal chaos. Feel free to contact me."
+    "text": "Email: leonardo.souto.ferreira at gmail.com\nInstitutional Email: lsf9196 at nyu.edu\n\nNew York University. Department of Biology.  NYU Center for Genomics and Systems Biology. 12 Waverly Place. 10003 - New York, NY - USA"
   },
   {
-    "objectID": "index.html#current-projects",
-    "href": "index.html#current-projects",
-    "title": "Leonardo Souto Ferreira",
-    "section": "Current Projects",
-    "text": "Current Projects\n\nUrban malaria and Humidity\n\nUsing climate data and number of cases of malaria caused by P. falciparum, transmitted by A. stephensi, we plan to study the role of humidity with models that consider entomological characteristics of mosquitoes. This work has implications for malaria containment under climate change.\nCollaborators: Mercedes Pascual Related Works: None yet."
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
+    "section": "",
+    "text": "New York University, New York, USA. Year: 2023-Ongoing.\n\n\n\nThe University of Chicago, Chicago, USA.\nYear: 2022-2023.\n\n\n\nInstitute for Theoretical Physics, IFT-Unesp, Brazil.\nYear: 2020-2022.\n\n\n\nFederal University of Santa Catarina, UFSC, Brazil.\nYear: 2015-2019."
   },
   {
-    "objectID": "index.html#old-projects",
-    "href": "index.html#old-projects",
-    "title": "Leonardo Souto Ferreira",
-    "section": "Old Projects",
-    "text": "Old Projects\n\nMathematical Modelling of COVID-19\n\nWe aim to help the understanding of COVID-19 epidemics through mathematical models, mainly compartmental ones, such as SEIR-like models. Our interests are variants, non-pharmaceutical interventions and vaccination scenarios. We use mainly data from Brazil.\nCollaborators: Many, see Publications section or our project on ResearchGate Related Works: Many, see my most recent papers in Publications section.\n\n\n\nOmnidirectional Images and Moebius Transformations\n\nIn this project we aim to perceptually optimize omnidirectional images through Local Moebius Transformations, because of the relationship between the Complex Plane and Spherical Images.\nCollaborators: Leonardo Sacht, Luiz Velho  Related Works: Bounded biharmonic blending of Möbius transformations for flexible omnidirectional image rectification Local Moebius transformations applied to omnidirectional images\n\n\n\nThe Damped Kuramoto-Sivashinsky Equation\nIn this project, we aim to caracterize the phases of the damped Kuramoto-Sivashinsky Equation using his behavior in the frequency space via extensive simulations. We also use the Dynamical Systems approach, using parameters like Lyapunov Exponents.\nCollaborators: Lucas Nicolao\n\n\nDynamic Simulator\n\nIn this project we aim to create a multi purpose simulator, with focus in Dynamical Systems. The algorithm have versions in C/C++ and MATLAB/Octave.\nCollaborators: Rômulo Cenci, Franco Sauvisky  Github: @DynamicSimulator"
+    "objectID": "education.html#degree-education",
+    "href": "education.html#degree-education",
+    "title": "Education",
+    "section": "",
+    "text": "New York University, New York, USA. Year: 2023-Ongoing.\n\n\n\nThe University of Chicago, Chicago, USA.\nYear: 2022-2023.\n\n\n\nInstitute for Theoretical Physics, IFT-Unesp, Brazil.\nYear: 2020-2022.\n\n\n\nFederal University of Santa Catarina, UFSC, Brazil.\nYear: 2015-2019."
+  },
+  {
+    "objectID": "education.html#complementary-education",
+    "href": "education.html#complementary-education",
+    "title": "Education",
+    "section": "Complementary Education",
+    "text": "Complementary Education\n\nSimulation-Based Inference for Epidemiological Dynamics\nUniversity of Washington, Seattle, USA\nYear: 2022.\n\n\n\n2nd Latin American School on Parallel Programming for High Performance Computing.\nICTP South American Institute for Fundamental Research, ICTP - SAIFR, Brazil.\nYear: 2019.\nCertificate\n\n\nComputer Graphics 2D.\nInstituto de Matemática Pura e Aplicada, IMPA, Brazil.\nYear: 2017.\n\n\nImage and video processing: From Mars to Hollywood with a stop at the hospital.\nDuke University, Durham, USA\nYear: 2016.\nCertificate"
   },
   {
     "objectID": "publications.html",
@@ -63,31 +70,24 @@
     "text": "2017\nLeonardo Souto Ferreira, Leonardo Sacht and Luiz Velho. (2017). Local Moebius transformations applied to omnidirectional images. Computers & Graphics, 68. DOI: 10.1016/j.cag.2017.08.005."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Leonardo Souto Ferreira",
     "section": "",
-    "text": "Email: leonardo.souto.ferreira at gmail.com\nInstitutional Email: lsf9196 at nyu.edu\n\nNew York University. Department of Biology.  NYU Center for Genomics and Systems Biology. 12 Waverly Place. 10003 - New York, NY - USA"
+    "text": "Hello, I’m a PhD student in Biology at New York University under supervision of Mercedes Pascual, and a member of Observatório COVID-19 BR. I’m currently working with mathematical models of epidemics applied to urban malaria in India, studying the role of climate in transmission. I have experience with COVID-19 modeling, mostly concerning vaccination strategies. I also have experience in image processing of omnidirectional images with complex analysis and spatio-temporal chaos. Feel free to contact me."
   },
   {
-    "objectID": "education.html",
-    "href": "education.html",
-    "title": "Education",
-    "section": "",
-    "text": "New York University, New York, USA. Year: 2023-Ongoing.\n\n\n\nThe University of Chicago, Chicago, USA.\nYear: 2022-2023.\n\n\n\nInstitute for Theoretical Physics, IFT-Unesp, Brazil.\nYear: 2020-2022.\n\n\n\nFederal University of Santa Catarina, UFSC, Brazil.\nYear: 2015-2019."
+    "objectID": "index.html#current-projects",
+    "href": "index.html#current-projects",
+    "title": "Leonardo Souto Ferreira",
+    "section": "Current Projects",
+    "text": "Current Projects\n\nUrban malaria and Humidity\n\nUsing climate data and number of cases of malaria caused by P. falciparum, transmitted by A. stephensi, we plan to study the role of humidity with models that consider entomological characteristics of mosquitoes. This work has implications for malaria containment under climate change.\nCollaborators: Mercedes Pascual Related Works: None yet."
   },
   {
-    "objectID": "education.html#degree-education",
-    "href": "education.html#degree-education",
-    "title": "Education",
-    "section": "",
-    "text": "New York University, New York, USA. Year: 2023-Ongoing.\n\n\n\nThe University of Chicago, Chicago, USA.\nYear: 2022-2023.\n\n\n\nInstitute for Theoretical Physics, IFT-Unesp, Brazil.\nYear: 2020-2022.\n\n\n\nFederal University of Santa Catarina, UFSC, Brazil.\nYear: 2015-2019."
-  },
-  {
-    "objectID": "education.html#complementary-education",
-    "href": "education.html#complementary-education",
-    "title": "Education",
-    "section": "Complementary Education",
-    "text": "Complementary Education\n\nSimulation-Based Inference for Epidemiological Dynamics\nUniversity of Washington, Seattle, USA\nYear: 2022.\n\n\n\n2nd Latin American School on Parallel Programming for High Performance Computing.\nICTP South American Institute for Fundamental Research, ICTP - SAIFR, Brazil.\nYear: 2019.\nCertificate\n\n\nComputer Graphics 2D.\nInstituto de Matemática Pura e Aplicada, IMPA, Brazil.\nYear: 2017.\n\n\nImage and video processing: From Mars to Hollywood with a stop at the hospital.\nDuke University, Durham, USA\nYear: 2016.\nCertificate"
+    "objectID": "index.html#old-projects",
+    "href": "index.html#old-projects",
+    "title": "Leonardo Souto Ferreira",
+    "section": "Old Projects",
+    "text": "Old Projects\n\nMathematical Modelling of COVID-19\n\nWe aim to help the understanding of COVID-19 epidemics through mathematical models, mainly compartmental ones, such as SEIR-like models. Our interests are variants, non-pharmaceutical interventions and vaccination scenarios. We use mainly data from Brazil.\nCollaborators: Many, see Publications section or our project on ResearchGate Related Works: Many, see my most recent papers in Publications section.\n\n\n\nOmnidirectional Images and Moebius Transformations\n\nIn this project we aim to perceptually optimize omnidirectional images through Local Moebius Transformations, because of the relationship between the Complex Plane and Spherical Images.\nCollaborators: Leonardo Sacht, Luiz Velho  Related Works: Bounded biharmonic blending of Möbius transformations for flexible omnidirectional image rectification Local Moebius transformations applied to omnidirectional images\n\n\n\nThe Damped Kuramoto-Sivashinsky Equation\nIn this project, we aim to caracterize the phases of the damped Kuramoto-Sivashinsky Equation using his behavior in the frequency space via extensive simulations. We also use the Dynamical Systems approach, using parameters like Lyapunov Exponents.\nCollaborators: Lucas Nicolao\n\n\nDynamic Simulator\n\nIn this project we aim to create a multi purpose simulator, with focus in Dynamical Systems. The algorithm have versions in C/C++ and MATLAB/Octave.\nCollaborators: Rômulo Cenci, Franco Sauvisky  Github: @DynamicSimulator"
   }
 ]
